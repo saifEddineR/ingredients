@@ -8,7 +8,7 @@ pipeline{
         }
         stage('build'){
             steps{
-                touch /home/saif/jenkinstext.txt
+                sh 'touch jenkinstext.txt'
                 // sh 'cd client && npm start'
             }
         }
