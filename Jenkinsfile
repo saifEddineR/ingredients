@@ -8,8 +8,8 @@ pipeline{
         }
         stage('build'){
             steps{
-                sh 'cd client && npm install'
-                sh 'cd client && npm start'
+                sh 'touch jenkinstext.txt'
+                // sh 'cd client && npm start'
             }
         }
         stage('deliver'){
