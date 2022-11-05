@@ -9,7 +9,7 @@ pipeline{
         stage('build'){
             steps{
                 sh 'cd client && npm install'
-                sh 'npm run build2'
+                sh 'cd client && npm start'
             }
         }
         stage('deliver'){
