@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "client": "npm start --prefix client"
+    "client": "npm start --prefix client",
+    "build": "react-scripts build --prefix client"
   },
   "author": "",
   "license": "ISC",
